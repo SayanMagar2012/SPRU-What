@@ -13,5 +13,7 @@ HOW TO USE IT:
 <icons>
   <line>
     <icon name="SPRU-what?" ID="1" color="#53A6DC" locked="false" customName="false" customIcon="asset-v1/icon.gif" hidden="false"></icon>
+   <icon name="Extra" ID="2" color="#9B9B44" locked="false" customName="true" customIcon="asset-v2/icon.png" hidden="false"/>
+<icon name="Phase 2 type shi" ID="3" color="#CC0000" locked="false" customName="false" customIcon="asset-v3/icon.gif" hidden="false"/>
   </line>
 </icons>
