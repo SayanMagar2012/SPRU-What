@@ -225,8 +225,21 @@
               </div>
             </div>
             <div class="pop" id="pop-modhistory">
-              <div class="container">
-                <svg class="icn-svg spin"><use xlink:href="#ic-loader"></use></svg>
+              <div class="container" style="z-index:1;position:relative;">
+                <div class="title">&#128293; New mods &#128293;</div>
+                <div class="new-mods-container" id="modNews"></div>
+                <hr style="margin-top: 18px;" id="bt-playedmods-hr">
+                <div class="mods-buttons-warper" style="display:flex;justify-content:center;align-items:center;gap:10px;">
+                  <div class="bt bt-light with-icn" id="bt-playedmods">
+                    <div class="bck">
+                      <svg class="icn-svg">
+                        <use xlink:href="#ic-rate"></use>
+                      </svg>
+                      <div class="txt">Played Mods</div>
+                    </div>
+                    <a class="hitzone" href="js/mod-libs/index.html"></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -496,14 +509,17 @@
     <div id="fade-all" class="fadeIn"></div>
     <div id="lock-all"></div>
     <div id="dragbar"></div>
+    <div id="tab-myachi" style="display: none;"></div>
+    <script src="js/libs/achi.js"></script>
     <script src="js/mod.js"></script>
+    <script src="js/libs/core.js"></script>
     <script src="js/libs/jquery.js"></script>
     <script src="js/libs/tsparticles.confetti.bundle.min.js"></script>
     <script src="js/libs/TweenMax.min.js"></script>
     <script src="js/libs/EasePack.min.js"></script>
     <script src="js/libs/ScrollToPlugin.min.js"></script>
     <script src="js/script.min.js"></script>
-    <script>document.getElementById(`modVersion`).innerHTML = `Rem's Incredibox Modding Build v0.9.4`;</script>
+    <script>document.getElementById(`modVersion`).innerHTML = `Rem's Incredibox Modding Build v6.8.7 <br> ${RegisterMod} v${RegisterModVersion} by ${ModDeveloper}`;</script>
     <svg
       aria-hidden="true"
       style="position: absolute; width: 0; height: 0; overflow: hidden"
